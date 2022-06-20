@@ -1,0 +1,20 @@
+.box {
+    margin: 40px 30px 20px 10px;
+    padding: 10px 20px 30px 40px;
+    color: darkgreen;
+    font-size: 25px;
+    font-weight: 500;
+    background: lightgreen;
+    border: 1px solid darkgreen;
+    height: 300px;
+    width: calc(50% - 110px);
+    display: inline-block;
+}
+
+.hideBox {
+    display: none;
+}
+
+div:last-of-type:hover {
+    background-color: pink;
+}
