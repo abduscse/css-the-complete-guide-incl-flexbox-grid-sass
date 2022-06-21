@@ -1,0 +1,70 @@
+main {
+    padding-top: 25px;
+}
+
+.package {
+    background: rgb(201, 252, 201);
+    margin: 25px 0;
+
+    border: 5px solid darkgreen;
+    width: 75%;
+    border-left: none;
+}
+
+.package:hover,
+.package:active {
+    box-shadow: 2px 2px 4px rgba(255, 69, 0, 0.5);
+    /* border: 5px solid rgb(255, 69, 0) !important; */
+    border: 5px solid rgb(255, 69, 0);
+    border-left: none;
+}
+
+.package>a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.package-subtitle {
+    color: gray;
+}
+
+.package-description {
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#plus {
+    background: rgb(112, 247, 112);
+}
+
+.clear-fix {
+    clear: both;
+}
+
+#free {
+    background: rgb(197, 245, 197);
+    float: right;
+    border-right: none;
+    border-left: 5px solid darkgreen;
+}
+
+#free:hover,
+#free:active {
+    border-left-color: rgb(255, 69, 0);
+    box-shadow: -2px 2px 4px rgba(255, 69, 0, 0.5);
+}
+
+#premium {
+    background: darkgreen;
+}
+
+#premium .package-title {
+    color: white;
+}
+
+#premium .package-subtitle {
+    color: lightgray;
+}
